@@ -33,8 +33,7 @@ function onStartButton() {
 }
 function onStopButton(){ 
     refs.isActive = false
-    clearInterval(swithColorID)
-    refs.body.style.backgroundColor = '#ffffff'
+    clearInterval(swithColorID)    
     refs.start.removeAttribute('disabled', 'disabled')
 }
 function randomColorMaker(){
